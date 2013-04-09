@@ -1,0 +1,119 @@
+body {
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+/*	font-family: Georgia;*/
+}
+
+
+/* The annoying responsive bits */
+@media screen and (min-width: 320px) {
+	div.container {
+		width: 320px;
+	}	
+}
+
+@media screen and (min-width: 480px) {
+	div.container {
+		width: 440px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	div.container {
+		width: 640px;
+	}
+}
+
+@media screen and (min-width: 900px) {
+	div.container {
+		width: 760px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	div.container {
+		width: 1200px;
+	}
+}
+
+/* Ok, so this is excessive.  It's fullscreen on my home external */
+@media screen and (min-width: 2400px) {
+	div.container {
+		width: 2200px;
+		font-size: 2em;
+	}
+}
+
+div.header {
+	position: fixed;
+	top: 0;
+	background-color: rgba(222,222,222,1);
+	width: 100%;
+}
+
+div.header div.container {
+	font-color: #fff;
+}
+
+div.header div.container div#name {
+	width: 40%;
+	float: left;
+}
+
+div.header div.container div#links {
+	width: 40%;
+	float: right;
+	text-align: right;
+}
+
+
+div.container {
+	margin: auto;
+}
+
+div.content div.container {
+	margin-top: 30px;
+}
+
+.post h3 {
+	text-align: center;
+	font-size: 1.5em;
+	margin-bottom: 5px;
+}
+
+.post h3 a, .post h3 a:visited, .post h3 a:hover, .post h3 a:active {
+	text-decoration: none;
+	color: #444;
+}
+
+.post h4{
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	font-weight: normal;
+	font-style: italic;
+}
+
+.comparison-table {
+	border-collapse:collapse;
+	border-spacing:0;
+	margin: auto;
+	width: 75%;
+}
+
+.comparison-table thead th {
+	font-weight: 800;
+}
+
+.comparison-table tbody tr:nth-child(2n) {
+	background-color: #eee;
+}
+
+.comparison-table tbody tr td, .comparison-table tfoot tr td {
+	text-align: center;
+}
+
+.comparison-table tbody tr td:first-child, .comparison-table tfoot tr td:first-child {
+	font-weight: 800;
+	text-align: left;
+}

@@ -1,0 +1,14 @@
+---
+layout: primary
+title: "Warren Krewenki"
+---
+
+<div class="content">
+		{% for post in site.posts %}
+		<div class="post summary">
+			<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+			<h4>{{ post.date | date: "%B %e, %Y" }}</h4>
+			{{ post.content | strip_html | truncatewords:75}}...
+		</div>
+		{% endfor %}
+</div>
