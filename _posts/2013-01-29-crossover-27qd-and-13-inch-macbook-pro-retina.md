@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Running 2 Crossover 27QDs with a 13 Inch MacBook Pro with Retina Display"
-permalink: date
+
 ---
 
 I've had a [13&quot; MacBook Pro with Retina display](http://www.apple.com/macbook-pro/) since they were announced in October
