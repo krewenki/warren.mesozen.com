@@ -4,4 +4,4 @@ title: "Open Source: One commit at a time"
 
 ---
 
-Here's a new post.  Now I can test archives, pagination, etc.
+This site is powered by open source software.  [Jekyll](https://github.com/mojombo/jekyll), Ruby, jQuery, Twitter Bootstrap.
