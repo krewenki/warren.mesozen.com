@@ -1,3 +1,4 @@
 url: warren.mesozen.com
 paginate: 3
 future: false
+gems: [jekyll-paginate]
